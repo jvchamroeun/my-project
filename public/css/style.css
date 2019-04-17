@@ -1,0 +1,108 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background: #000000;
+}
+
+/* Global */
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+/* Header */
+header {
+	background: rgba(0, 0, 0, 0.8);
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #ffffff 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 80px 0 10px;
+}
+
+
+header nav{
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #ffff00;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #fa7e92;
+	font-weight: bold;
+}
+
+/* title */
+#title{
+	margin-top: 200px;
+	min-height:400px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#title h1{
+	font-size: 75px;
+	line-height: 90px;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+
+.strokeme1
+{
+	color: black;
+	text-shadow: rgb(0, 0, 0) 9px 0 0, rgb(0, 0, 0) 9px 1px 0, rgb(0, 0, 0) 9px 2px 0, rgb(0, 0, 0) 9px 3px 0, rgb(0, 0, 0) 8px 4px 0, rgb(0, 0, 0) 8px 5px 0,
+	rgb(0, 0, 0) 7px 5px 0, rgb(0, 0, 0) 6px 6px 0, rgb(0, 0, 0) 6px 7px 0, rgb(0, 0, 0) 5px 8px 0, rgb(0, 0, 0) 4px 8px 0, rgb(0, 0, 0) 3px 8px 0,
+	rgb(0, 0, 0) 2px 9px 0, rgb(0, 0, 0) 1px 9px 0, rgb(0, 0, 0) 0 9px 0, rgb(0, 0, 0) -1px 9px 0, rgb(0, 0, 0) -2px 9px 0, rgb(0, 0, 0) -3px 9px 0,
+	rgb(0, 0, 0) -4px 8px 0, rgb(0, 0, 0) -5px 8px 0, rgb(0, 0, 0) -5px 7px 0, rgb(0, 0, 0) -6px 7px 0, rgb(0, 0, 0) -7px 6px 0, rgb(0, 0, 0) -7px 5px 0,
+	rgb(0, 0, 0) -8px 4px 0, rgb(0, 0, 0) -8px 3px 0, rgb(0, 0, 0) -9px 2px 0, rgb(0, 0, 0) -9px 1px 0, rgb(0, 0, 0) -9px 0 0, rgb(0, 0, 0) -9px -1px 0,
+	rgb(0, 0, 0) -9px -2px 0, rgb(0, 0, 0) -9px -3px 0, rgb(0, 0, 0) -8px -4px 0, rgb(0, 0, 0) -8px -5px 0, rgb(0, 0, 0) -7px -5px 0, rgb(0, 0, 0) -7px -6px 0,
+	rgb(0, 0, 0) -6px -7px 0, rgb(0, 0, 0) -5px -7px 0, rgb(0, 0, 0) -4px -8px 0, rgb(0, 0, 0) -3px -8px 0, rgb(0, 0, 0) -2px -9px 0, rgb(0, 0, 0) -2px -9px 0,
+	rgb(0, 0, 0) 0 -9px 0, rgb(0, 0, 0) 1px -9px 0, rgb(0, 0, 0) 2px -9px 0, rgb(0, 0, 0) 3px -9px 0, rgb(0, 0, 0) 3px -8px 0, rgb(0, 0, 0) 4px -8px 0,
+	rgb(0, 0, 0) 5px -7px 0, rgb(0, 0, 0) 6px -7px 0, rgb(0, 0, 0) 7px -6px 0, rgb(0, 0, 0) 7px -5px 0, rgb(0, 0, 0) 8px -4px 0, rgb(0, 0, 0) 8px -3px 0,
+	rgb(0, 0, 0) 9px -3px 0, rgb(0, 0, 0) 9px -2px 0, rgb(0, 0, 0) 9px -1px 0;
+}
+
+/*about*/
+
+.para {
+	margin-top: 50px;
+}
+
+.me {
+	color: #ffffff;
+	text-align: center;
+}
+
+/* footer */
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color:#ffffff;
+	background-color:#000000;
+	text-align:center;
+}
