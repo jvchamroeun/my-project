@@ -2,6 +2,8 @@ const express = require('express');
 const coin = require('./function.js');
 const hbs = require('hbs');
 
+const port = process.env.PORT || 8080;
+
 var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -82,6 +84,6 @@ app.get('/dynamic', async(request, response) => {
 
 
 //internet address - localhost:<port>
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log('Server is up on the port 8080')
 });
